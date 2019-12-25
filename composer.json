@@ -1,7 +1,18 @@
-{
-  "name": "andrastoth/webcodecamjs",
-  "description": "WebCodeCam jQuery plugin",
-  "keywords": ["webcodecam", "webcodecamjs", "webcodecamjquery"],
-  "homepage": "https://atandrastoth.co.uk/main/pages/plugins/webcodecamjs/",
-  "authors": [{"name": "Andras Toth"}]
-}
+    "repositories": [
+      {
+        "type": "package",
+        "package": {
+          "name": "dollarman19/webcodecamjs",
+          "version": "0.1.0",
+          "type": "package",
+          "source": {
+              "url": "git@gitlab.com:dollarman19/webcodecamjs.git",
+              "type": "git",
+              "reference": "master"
+          }
+        }
+      }
+    ],
+    "require": {           
+        "dollarman19/webcodecamjs": "*"
+    },
